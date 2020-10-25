@@ -96,13 +96,13 @@ textarea {
    ========================================================================== */
 
 html {
-  background-color: #fff;
+  background-color: #1a1a1a;
   height: 100%;
   width: 100%;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Poiret One', cursive;
   padding: 0 2em;
   font-size: 1.25em;
   height: 100%;
@@ -111,15 +111,18 @@ body {
 
 header,
 footer {
-  background-color: #222;
-  height: 80px;
+  background-color: #1a1a1a;
+  height: 150px;
   width: 100%;
 }
 
 main {
-  background-color: #ccc;
+  background-color: #262626;
   height: 250px;
   width: 100%;
+  font-size: 1.25em;
+  border-top: 1px solid #666666;
+  border-bottom: 1px solid #666666;
 }
 
 header,
@@ -128,6 +131,16 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-transform: capitalize;
+}
+
+header {
+  font-family: 'Marck Script', cursive;
+  font-size: 3em;
+}
+
+footer {
+  border-top: 1px solid #666666;
 }
 
 .flex-container {
@@ -142,12 +155,18 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Poiret One', cursive;
+  text-align: center;
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1.25em;
   width: 30%;
   height: 200px;
+}
+
+#div-2 {
+  border-right: 1px solid #666666;
+  border-left: 1px solid #666666;
 }
 
 /* ==========================================================================
